@@ -18,3 +18,17 @@
 
 2. **Naming Convetion**:
 
+3. **Source File Structure**:
+
+4. **Whitespaces**:
+
+5. **Identation**:
+
+6. **Method Parameters**:
+
+7. **Hardcoding**:
+
+8. **Code Comments**:
+
+9. **Logging**:
+
