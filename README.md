@@ -16,7 +16,8 @@
 ### In Java
 
 1. **Project Structure**:
-  * [Maven Standard Directory Layout](https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html)
+ 
+ [Maven Standard Directory Layout](https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html)
     Dir | Description    
     --- | -----------
     src/main/java | Application/Library sources
@@ -34,6 +35,7 @@
     README.txt | Project's readme
 
 2. **Naming Convetion**: 
+ 
  https://www.oracle.com/java/technologies/javase/codeconventions-namingconventions.html
 
 3. **Source File Structure**:
