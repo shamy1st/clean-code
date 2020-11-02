@@ -41,17 +41,22 @@
 
 3. **Source File Structure**:
  
- * Package statement
- * Import statements
-     * All static imports
-     * All non-static imports
- * Exactly one top-level class
-     * Class variables
-     * Instance variables
-     * Constructors
-     * Methods
+  * Package statement
+  * Import statements
+      * All static imports
+      * All non-static imports
+  * Exactly one top-level class
+      * Class variables
+      * Instance variables
+      * Constructors
+      * Methods
      
 4. **Whitespaces**:
+
+  * Two blank lines before starting static blocks, fields, constructors and inner classes
+  * One blank line after a method signature that is multiline
+  * A single space separating reserved keywords like if, for, catch from an open parentheses
+  * A single space separating reserved keywords like else, catch from a closing parentheses
 
 5. **Identation**:
 
