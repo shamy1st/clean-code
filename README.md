@@ -37,7 +37,7 @@
 
 2. **Naming Convetion**:
  
- https://www.oracle.com/java/technologies/javase/codeconventions-namingconventions.html
+* https://www.oracle.com/java/technologies/javase/codeconventions-namingconventions.html
 
 3. **Source File Structure**:
  
