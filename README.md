@@ -2,7 +2,6 @@
 **Clean Code** is a code that any developer can read and change easily.
 
 **Martin Fowler** "Any fool can write code that a computer can understand.
-
 Good programmers write code that humans can understand."
 
 ### Why?
