@@ -17,8 +17,8 @@
 
 1. **Project Structure**:
   * [Maven Standard Directory Layout](https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html)
-    Dir     | Description    
-    ------- | -----------
+    Dir | Description    
+    --- | -----------
     src/main/java | Application/Library sources
     src/main/resources | Application/Library resources
     src/main/filters | Resource filter files
