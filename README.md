@@ -14,5 +14,7 @@
 * **Testable**: easy to test the codebase, preferably in an automated manner.
 
 ### In Java
-**1. Project Structure**:
-**2. Naming Convetion**:
+1. **Project Structure**:
+
+2. **Naming Convetion**:
+
