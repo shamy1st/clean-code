@@ -33,7 +33,8 @@
     NOTICE.txt | Notices and attributions required by libraries that the project depends on
     README.txt | Project's readme
 
-2. **Naming Convetion**:
+2. **Naming Convetion**: 
+ https://www.oracle.com/java/technologies/javase/codeconventions-namingconventions.html
 
 3. **Source File Structure**:
 
