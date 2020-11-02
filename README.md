@@ -60,6 +60,14 @@
 
 5. **Identation**:
 
+  No single convention
+  * 4 spaces or tab
+  * Line capacity 80 char.
+  * Breaking statement:
+   * Break method calls after comma.
+   * Break expressions before an operator.
+   * Two spaces for next lines.
+
 6. **Method Parameters**:
 
 7. **Hardcoding**:
