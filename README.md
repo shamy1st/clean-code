@@ -36,10 +36,21 @@
   README.txt | Project's readme
 
 2. **Naming Convetion**:
+ 
  https://www.oracle.com/java/technologies/javase/codeconventions-namingconventions.html
 
 3. **Source File Structure**:
-
+ 
+ * Package statement
+ * Import statements
+     * All static imports
+     * All non-static imports
+ * Exactly one top-level class
+     * Class variables
+     * Instance variables
+     * Constructors
+     * Methods
+     
 4. **Whitespaces**:
 
 5. **Identation**:
