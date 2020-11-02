@@ -14,6 +14,7 @@
 * **Testable**: easy to test the codebase, preferably in an automated manner.
 
 ### In Java
+
 1. **Project Structure**:
 
 2. **Naming Convetion**:
@@ -32,3 +33,13 @@
 
 9. **Logging**:
 
+### SOLID Principles
+
+### DRY & KISS
+DRY: Don't Repeat Yourself
+KISS: Keep It Simple, Stupid.
+
+### TDD
+Test Driven Development
+
+### Tools
