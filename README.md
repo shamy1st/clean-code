@@ -60,7 +60,7 @@
 
 5. **Identation**:
 
-  No single convention
+ - No single convention
   * 4 spaces or tab
   * Line capacity 80 char.
   * Breaking statement:
