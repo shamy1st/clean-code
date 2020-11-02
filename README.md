@@ -85,3 +85,6 @@ KISS: Keep It Simple, Stupid.
 Test Driven Development
 
 ### Tools
+
+### Ref
+* https://www.baeldung.com/java-clean-code
