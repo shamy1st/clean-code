@@ -13,3 +13,6 @@
 * **Simple**: design and implementation must be as simple as possible.
 * **Testable**: easy to test the codebase, preferably in an automated manner.
 
+### In Java
+**1. Project Structure**:
+**2. Naming Convetion**:
