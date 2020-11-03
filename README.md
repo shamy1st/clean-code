@@ -158,10 +158,11 @@ Test Driven Development
 **Martin**: design principles encourage us to create more maintainable, understandable, and flexible software.
 
 ### 1. Single Responsibility
-a class should have only one responsibility, and one reason to change.
-* Book, BookPrinter example: https://www.baeldung.com/solid-principles#s
+(interface, class, or method) should have only one responsibility, and one reason to change.
+* Book, BookPrinter [example](https://www.baeldung.com/solid-principles#s)
 
 ### 2. Open/Closed
+
 
 ### 3. Liskov Substitution
 
