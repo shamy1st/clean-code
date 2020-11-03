@@ -3,17 +3,17 @@
 
 **Martin Fowler** "Any fool can write code that a computer can understand. Good programmers write code that humans can understand."
 
-### Why?
+## Why?
 * **Maintainable Codebase**: clean code can help develop software that is easy to change and maintain.
 * **Easier Troubleshooting**: clean code is easier to troubleshoot for problems.
 * **Faster Onboarding**: a quicker onboarding for newcomers to keep productivity high.
 
-### Characteristics
+## Characteristics
 * **Simple**: design and implementation must be as simple as possible.
 * **Focused**: code should be written to solve a specific problem.
 * **Testable**: easy to test the codebase, preferably in an automated manner.
 
-### In Java
+## In Java
 
 1. **Project Structure**:
    * [Maven Standard Directory Layout](https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html)
@@ -144,16 +144,14 @@
     * **Static Analysis Tools**: SonarQube, Checkstyle, PMD and SpotBugs.
       * detecting a lot of code smells like violations of naming conventions and resource leakage.
 
-### SOLID Principles
+## SOLID Principles
 
-### DRY & KISS
+## DRY & KISS
 DRY: Don't Repeat Yourself
 KISS: Keep It Simple, Stupid.
 
-### TDD
+## TDD
 Test Driven Development
 
-### Tools
-
-### Ref
+## Ref
 * https://www.baeldung.com/java-clean-code
