@@ -36,8 +36,16 @@
    README.txt | Project's readme
 
 2. **Naming Convetion**:
+
+     | Description | Example
+   Package | lowercase, separated by dots | com.sun.project
+   Class | nouns, first letter of each word capitalized, avoid abbreviations | InputStreamReader
+   Interface | like class names | Runnable, Iterable
+   Method | verbs, first letter lowercase, first letter of each internal word capitalized | runInBackground()
+   Variable | first letter lowercase, first letter of each internal word capitalized | int streamReader;
+   Constant | all uppercase with words separated by underscores ("_") | static final int MIN_WIDTH = 4;
  
-* https://www.oracle.com/java/technologies/javase/codeconventions-namingconventions.html
+ * https://www.oracle.com/java/technologies/javase/codeconventions-namingconventions.html
 
 3. **Source File Structure**:
  
