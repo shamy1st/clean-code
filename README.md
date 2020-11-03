@@ -106,7 +106,6 @@
     * You mustn't be pedantic about this.
 
 7. **Hardcoding**:
-    
     * It can lead to duplication, which makes change more difficult.
     * If possible, replace with values which can be picked from configuration or environment.
     
@@ -115,7 +114,6 @@
           private int storeClosureDay = DayOfWeek.SUNDAY.getValue()
 
 8. **Code Comments**: 
-    
     * Don't include obvious things in the comments.
     * Comments should only complement a code.
     * Use block comments rarely, possibly to describe non-trivial design decisions.
@@ -133,6 +131,11 @@
           * Typically useful together with the codebase
 
 9. **Logging**:
+    * Avoid excessive logging.
+    * Choose log levels wisely.
+    * Be very clear and descriptive in the log message.
+    * Use external tools for tracing, aggregation, filtering of log messages for faster analytic.
+    * Frameworks in Java for logging, including **SLF4J**, **Logback**.
 
 ### SOLID Principles
 
