@@ -70,16 +70,8 @@
        2. **Package Statement**
 
        3. **Import Statements**: 
-
-               import java.*
-               //blank line
-               import javax.*
-               //blank line
-               import all other imports
-               //blank line
-               import org.springframework.*
-               //blank line
-               import static all other imports
+          * All static imports
+          * All non-static imports
 
        4. **Java Source File Organization**:
            * static fields
