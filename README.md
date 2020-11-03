@@ -66,31 +66,31 @@
         * limitations under the License.
         */
  
-  2. **Package Statement**:
+  2. **Package Statement**
  
   3. **Import Statements**: 
   
-    import java.*
-    //blank line
-    import javax.*
-    //blank line
-    import all other imports
-    //blank line
-    import org.springframework.*
-    //blank line
-    import static all other imports
+          import java.*
+          //blank line
+          import javax.*
+          //blank line
+          import all other imports
+          //blank line
+          import org.springframework.*
+          //blank line
+          import static all other imports
   
   4. **Java Source File Organization**:
-      1. static fields
-      2. normal fields
-      3. constructors
-      4. (private) methods called from constructors
-      5. static factory methods
-      6. JavaBean properties (i.e., getters and setters)
-      7. method implementations coming from interfaces
-      8. private or protected templates that get called from method implementations coming from interfaces
-      9. other methods
-      10. equals, hashCode, and toString
+         1. static fields
+         2. normal fields
+         3. constructors
+         4. (private) methods called from constructors
+         5. static factory methods
+         6. JavaBean properties (i.e., getters and setters)
+         7. method implementations coming from interfaces
+         8. private or protected templates that get called from method implementations coming from interfaces
+         9. other methods
+         10. equals, hashCode, and toString
 
 4. **Whitespaces**:
 
