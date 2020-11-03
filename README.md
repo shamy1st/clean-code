@@ -175,10 +175,13 @@ Should be able to replace Parent class with Child class without disrupting the b
 
 ### 4. Interface Segregation
 Larger interfaces should be split into smaller ones.
+
+Define smaller, more focussed interfaces.
 * ISmartDevice[print(), fax(), scan()] -> Printable, Faxable, Scannable [example](https://dzone.com/articles/solid-principles-by-example-interface-segregation)
 
 ### 5. Dependency Inversion
-
+Classes should only depend on abstractions and not on their concrete implementations. (the decoupling of software modules)
+* ElectricPowerSwitch, LightBulb -> Switch, Switchable [example](https://springframework.guru/principles-of-object-oriented-design/dependency-inversion-principle/)
 
 ## Ref
 * https://www.baeldung.com/java-clean-code
@@ -186,5 +189,4 @@ Larger interfaces should be split into smaller ones.
 * https://www.baeldung.com/java-open-closed-principle
 * https://www.baeldung.com/java-liskov-substitution-principle
 * https://dzone.com/articles/solid-principles-by-example-interface-segregation
-
-
+* https://springframework.guru/principles-of-object-oriented-design/dependency-inversion-principle/
