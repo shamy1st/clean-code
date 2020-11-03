@@ -1,8 +1,6 @@
 # Clean Code
 **Clean Code** is a code that any developer can read and change easily.
 
-**Martin Fowler** "Any fool can write code that a computer can understand. Good programmers write code that humans can understand."
-
 ## Why?
 * **Maintainable Codebase**: clean code can help develop software that is easy to change and maintain.
 * **Easier Troubleshooting**: clean code is easier to troubleshoot for problems.
@@ -13,7 +11,7 @@
 * **Focused**: code should be written to solve a specific problem.
 * **Testable**: easy to test the codebase, preferably in an automated manner.
 
-## In Java
+## Java
 
 1. **Project Structure**:
    * [Maven Standard Directory Layout](https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html)
@@ -156,6 +154,12 @@ Test Driven Development
 * Also, we only add code if the new or any of the old tests fail. Which means that it leads to reusability as well.
 
 ## SOLID Principles
+
+### 1. Single Responsibility
+### 2. Open/Closed
+### 3. Liskov Substitution
+### 4. Interface Segregation
+### 5. Dependency Inversion
 
 ## Ref
 * https://www.baeldung.com/java-clean-code
