@@ -162,7 +162,9 @@ Test Driven Development
 * Book, BookPrinter [example](https://www.baeldung.com/solid-principles#s)
 
 ### 2. Open/Closed
-
+classes should be open for extension, but closed for modification.
+* one exception to the rule is when fixing bugs in existing code.
+* Calculator, CalculatorOperation, Addition, Subtraction [example](https://www.baeldung.com/java-open-closed-principle)
 
 ### 3. Liskov Substitution
 
