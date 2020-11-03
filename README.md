@@ -81,16 +81,16 @@
           import static all other imports
   
   4. **Java Source File Organization**:
-         1. static fields
-         2. normal fields
-         3. constructors
-         4. (private) methods called from constructors
-         5. static factory methods
-         6. JavaBean properties (i.e., getters and setters)
-         7. method implementations coming from interfaces
-         8. private or protected templates that get called from method implementations coming from interfaces
-         9. other methods
-         10. equals, hashCode, and toString
+      * static fields
+      * normal fields
+      * constructors
+      * (private) methods called from constructors
+      * static factory methods
+      * JavaBean properties (i.e., getters and setters)
+      * method implementations coming from interfaces
+      * private or protected templates that get called from method implementations coming from interfaces
+      * other methods
+      * equals, hashCode, and toString
 
 4. **Whitespaces**:
 
