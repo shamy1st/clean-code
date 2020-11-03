@@ -107,13 +107,21 @@
 
 7. **Hardcoding**:
     * It can lead to duplication, which makes change more difficult.
-    * If possible, replace with values which can be picked from configuration or environment
+    * If possible, replace with values which can be picked from configuration or environment.
     
           private int storeClosureDay = 7;
           // This can be refactored to use a constant from Java
           private int storeClosureDay = DayOfWeek.SUNDAY.getValue()
 
-8. **Code Comments**:
+8. **Code Comments**: two types of comments
+    * Documentation/JavaDoc Comments
+        * The audience here is the users of the codebase
+        * The details here are typically implementation free, focusing more on the specification
+        * Typically useful independent of the codebase
+    * Implementation/Block Comments
+        * The audience here is the developers working on the codebase
+        * The details here are implementation-specific
+        * Typically useful together with the codebase
 
 9. **Logging**:
 
