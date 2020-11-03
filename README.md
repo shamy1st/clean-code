@@ -113,15 +113,22 @@
           // This can be refactored to use a constant from Java
           private int storeClosureDay = DayOfWeek.SUNDAY.getValue()
 
-8. **Code Comments**: two types of comments
-    * Documentation/JavaDoc Comments
-        * The audience here is the users of the codebase
-        * The details here are typically implementation free, focusing more on the specification
-        * Typically useful independent of the codebase
-    * Implementation/Block Comments
-        * The audience here is the developers working on the codebase
-        * The details here are implementation-specific
-        * Typically useful together with the codebase
+8. **Code Comments**: 
+    * Don't include obvious things in the comments.
+    * Comments should only complement a code.
+    * Use block comments rarely, possibly to describe non-trivial design decisions.
+    * Use JavaDoc comments for most of our classes, interfaces, public and protected methods.
+    * All comments should be well-formed with a proper indentation for readability.
+
+    * Two Types of Comments:
+      * Documentation/JavaDoc Comments
+          * The audience here is the users of the codebase
+          * The details here are typically implementation free, focusing more on the specification
+          * Typically useful independent of the codebase
+      * Implementation/Block Comments
+          * The audience here is the developers working on the codebase
+          * The details here are implementation-specific
+          * Typically useful together with the codebase
 
 9. **Logging**:
 
