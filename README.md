@@ -155,7 +155,7 @@ Test Driven Development
 * Also, we only add code if the new or any of the old tests fail. Which means that it leads to reusability as well.
 
 ## SOLID Principles
-**Martin Fowler**: design principles encourage us to create more maintainable, understandable, and flexible software.
+**Robert Martin**: Design principles encourage us to create more maintainable, understandable, and flexible software.
 
 ### 1. Single Responsibility
 (interface, class, or method) should have only one responsibility, and one reason to change.
@@ -167,6 +167,10 @@ classes should be open for extension, but closed for modification.
 * Calculator, CalculatorOperation, Addition, Subtraction [example](https://www.baeldung.com/java-open-closed-principle)
 
 ### 3. Liskov Substitution
+**Robert Martin**: Subtypes must be substitutable for their base types.
+Should be able to replace Parent class with Child class without disrupting the behavior of our program.
+* Square can't replace Rectangle (setWidth, setHeight), then to inherit Square from Rectangle is a **bad** design.
+* Same for Oval, Circle.
 
 ### 4. Interface Segregation
 
@@ -175,4 +179,6 @@ classes should be open for extension, but closed for modification.
 ## Ref
 * https://www.baeldung.com/java-clean-code
 * https://www.baeldung.com/solid-principles
+* https://www.baeldung.com/java-open-closed-principle
+* https://www.baeldung.com/java-liskov-substitution-principle
 
