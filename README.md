@@ -144,14 +144,18 @@
     * **Static Analysis Tools**: SonarQube, Checkstyle, PMD and SpotBugs.
       * detecting a lot of code smells like violations of naming conventions and resource leakage.
 
-## SOLID Principles
-
 ## DRY & KISS
 * **DRY**: Don't Repeat Yourself.
 * **KISS**: Keep It Simple, Stupid.
 
 ## TDD
 Test Driven Development
+* Start with the design development of automated tests.
+* This leads to software that always works as expected.
+* As we always start with tests, we incrementally add working code in small chunks.
+* Also, we only add code if the new or any of the old tests fail. Which means that it leads to reusability as well.
+
+## SOLID Principles
 
 ## Ref
 * https://www.baeldung.com/java-clean-code
