@@ -49,49 +49,49 @@
 3. **Source File Structure**:
    * [Spring Source File Structure](https://github.com/spring-projects/spring-framework/wiki/Code-Style#source-file-structure)
  
-  1. **License**: each source file must specify the following license at the very top of the file
+      1. **License**: each source file must specify the following license at the very top of the file
 
-         /*
-         * Copyright 2002-2019 the original author or authors.
-         *
-         * Licensed under the Apache License, Version 2.0 (the "License");
-         * you may not use this file except in compliance with the License.
-         * You may obtain a copy of the License at
-         *
-         *      https://www.apache.org/licenses/LICENSE-2.0
-         *
-         * Unless required by applicable law or agreed to in writing, software
-         * distributed under the License is distributed on an "AS IS" BASIS,
-         * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-         * See the License for the specific language governing permissions and
-         * limitations under the License.
-         */
+             /*
+             * Copyright 2002-2019 the original author or authors.
+             *
+             * Licensed under the Apache License, Version 2.0 (the "License");
+             * you may not use this file except in compliance with the License.
+             * You may obtain a copy of the License at
+             *
+             *      https://www.apache.org/licenses/LICENSE-2.0
+             *
+             * Unless required by applicable law or agreed to in writing, software
+             * distributed under the License is distributed on an "AS IS" BASIS,
+             * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+             * See the License for the specific language governing permissions and
+             * limitations under the License.
+             */
 
-   2. **Package Statement**
+       2. **Package Statement**
 
-   3. **Import Statements**: 
+       3. **Import Statements**: 
 
-           import java.*
-           //blank line
-           import javax.*
-           //blank line
-           import all other imports
-           //blank line
-           import org.springframework.*
-           //blank line
-           import static all other imports
+               import java.*
+               //blank line
+               import javax.*
+               //blank line
+               import all other imports
+               //blank line
+               import org.springframework.*
+               //blank line
+               import static all other imports
 
-   4. **Java Source File Organization**:
-       * static fields
-       * normal fields
-       * constructors
-       * (private) methods called from constructors
-       * static factory methods
-       * JavaBean properties (i.e., getters and setters)
-       * method implementations coming from interfaces
-       * private or protected templates that get called from method implementations coming from interfaces
-       * other methods
-       * equals, hashCode, and toString
+       4. **Java Source File Organization**:
+           * static fields
+           * normal fields
+           * constructors
+           * (private) methods called from constructors
+           * static factory methods
+           * JavaBean properties (i.e., getters and setters)
+           * method implementations coming from interfaces
+           * private or protected templates that get called from method implementations coming from interfaces
+           * other methods
+           * equals, hashCode, and toString
 
 4. **Whitespaces**:
      * Two blank lines before starting static blocks, fields, constructors and inner classes
