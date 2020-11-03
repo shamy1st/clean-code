@@ -181,8 +181,7 @@ Define smaller, more focussed interfaces.
 
 ### 5. Dependency Inversion
 Classes should only depend on abstractions and not on their concrete implementations. (the decoupling of software modules)
-* ElectricPowerSwitch, LightBulb -> ElectricPowerSwitch implements Switch, LightBulb implements Switchable [example](https://springframework.guru/principles-of-object-oriented-design/dependency-inversion-principle/)
-![](https://github.com/shamy1st/clean-code/blob/main/dependency-inversion.png)
+* Logger, NtfsFileSystem -> Loggable, NtfsFileSystem implements Loggable [example](https://dzone.com/articles/solid-principles-by-example-dependency-inversion)
 
 ## Ref
 * https://www.baeldung.com/java-clean-code
@@ -190,4 +189,4 @@ Classes should only depend on abstractions and not on their concrete implementat
 * https://www.baeldung.com/java-open-closed-principle
 * https://www.baeldung.com/java-liskov-substitution-principle
 * https://dzone.com/articles/solid-principles-by-example-interface-segregation
-* https://springframework.guru/principles-of-object-oriented-design/dependency-inversion-principle/
+* https://dzone.com/articles/solid-principles-by-example-dependency-inversion
