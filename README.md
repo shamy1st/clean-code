@@ -16,7 +16,7 @@
 ### In Java
 
 1. **Project Structure**:
- * [Maven Standard Directory Layout](https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html)
+   * [Maven Standard Directory Layout](https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html)
 
    Dir | Description    
    --- | -----------
@@ -35,7 +35,8 @@
    README.txt | Project's readme
 
 2. **Naming Convetion**:
- * [Oracle Naming Convention](https://www.oracle.com/java/technologies/javase/codeconventions-namingconventions.html)
+   * [Oracle Naming Convention](https://www.oracle.com/java/technologies/javase/codeconventions-namingconventions.html)
+   
    Identifier | Description | Example
    ---------- | ----------- | -------
    Package | lowercase, separated by dots | com.sun.project
@@ -46,67 +47,65 @@
    Constant | all uppercase, words separated by underscores ("_") | static final int MIN_WIDTH = 5;
 
 3. **Source File Structure**:
- * [Spring Source File Structure](https://github.com/spring-projects/spring-framework/wiki/Code-Style#source-file-structure)
+   * [Spring Source File Structure](https://github.com/spring-projects/spring-framework/wiki/Code-Style#source-file-structure)
  
- 1. **License**: each source file must specify the following license at the very top of the file
- 
-        /*
-        * Copyright 2002-2019 the original author or authors.
-        *
-        * Licensed under the Apache License, Version 2.0 (the "License");
-        * you may not use this file except in compliance with the License.
-        * You may obtain a copy of the License at
-        *
-        *      https://www.apache.org/licenses/LICENSE-2.0
-        *
-        * Unless required by applicable law or agreed to in writing, software
-        * distributed under the License is distributed on an "AS IS" BASIS,
-        * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-        * See the License for the specific language governing permissions and
-        * limitations under the License.
-        */
- 
-  2. **Package Statement**
- 
-  3. **Import Statements**: 
-  
-          import java.*
-          //blank line
-          import javax.*
-          //blank line
-          import all other imports
-          //blank line
-          import org.springframework.*
-          //blank line
-          import static all other imports
-  
-  4. **Java Source File Organization**:
-      * static fields
-      * normal fields
-      * constructors
-      * (private) methods called from constructors
-      * static factory methods
-      * JavaBean properties (i.e., getters and setters)
-      * method implementations coming from interfaces
-      * private or protected templates that get called from method implementations coming from interfaces
-      * other methods
-      * equals, hashCode, and toString
+    1. **License**: each source file must specify the following license at the very top of the file
+
+           /*
+           * Copyright 2002-2019 the original author or authors.
+           *
+           * Licensed under the Apache License, Version 2.0 (the "License");
+           * you may not use this file except in compliance with the License.
+           * You may obtain a copy of the License at
+           *
+           *      https://www.apache.org/licenses/LICENSE-2.0
+           *
+           * Unless required by applicable law or agreed to in writing, software
+           * distributed under the License is distributed on an "AS IS" BASIS,
+           * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+           * See the License for the specific language governing permissions and
+           * limitations under the License.
+           */
+
+     2. **Package Statement**
+
+     3. **Import Statements**: 
+
+             import java.*
+             //blank line
+             import javax.*
+             //blank line
+             import all other imports
+             //blank line
+             import org.springframework.*
+             //blank line
+             import static all other imports
+
+     4. **Java Source File Organization**:
+         * static fields
+         * normal fields
+         * constructors
+         * (private) methods called from constructors
+         * static factory methods
+         * JavaBean properties (i.e., getters and setters)
+         * method implementations coming from interfaces
+         * private or protected templates that get called from method implementations coming from interfaces
+         * other methods
+         * equals, hashCode, and toString
 
 4. **Whitespaces**:
+     * Two blank lines before starting static blocks, fields, constructors and inner classes
+     * One blank line after a method signature that is multiline
+     * A single space separating reserved keywords like if, for, catch from an open parentheses
+     * A single space separating reserved keywords like else, catch from a closing parentheses
 
-  * Two blank lines before starting static blocks, fields, constructors and inner classes
-  * One blank line after a method signature that is multiline
-  * A single space separating reserved keywords like if, for, catch from an open parentheses
-  * A single space separating reserved keywords like else, catch from a closing parentheses
-
-5. **Identation**:
-No single convention
-  * 4 spaces or tab
-  * Line capacity 80 char.
-  * Breaking statement:
-    * Break method calls after comma.
-    * Break expressions before an operator.
-    * Two spaces for next lines.
+5. **Identation**: No single convention
+     * 4 spaces or tab
+     * Line capacity 80 char.
+     * Breaking statement:
+       * Break method calls after comma.
+       * Break expressions before an operator.
+       * Two spaces for next lines.
 
 6. **Method Parameters**:
 
