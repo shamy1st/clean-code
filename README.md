@@ -43,8 +43,8 @@
    Class | nouns, first letter of each word capitalized, avoid abbreviations | InputStreamReader
    Interface | like class names | Runnable, Iterable
    Method | verbs, first letter lowercase, first letter of each internal word capitalized | runInBackground()
-   Variable | first letter lowercase, first letter of each internal word capitalized | int streamReader
-   Constant | all uppercase, words separated by underscores ("_") | final int MIN_WIDTH
+   Variable | first letter lowercase, first letter of each internal word capitalized | int streamReader;
+   Constant | all uppercase, words separated by underscores ("_") | static final int MIN_WIDTH = 5;
  
  * https://www.oracle.com/java/technologies/javase/codeconventions-namingconventions.html
 
