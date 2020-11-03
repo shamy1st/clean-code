@@ -49,10 +49,10 @@
 3. **Source File Structure**:
    * [Spring Source File Structure](https://github.com/spring-projects/spring-framework/wiki/Code-Style#source-file-structure)
  
-      1. **License**: each source file must specify the following license at the very top of the file
+      * **License**: each source file must specify the following license at the very top of the file
 
              /*
-             * Copyright 2002-2019 the original author or authors.
+             * Copyright 2002-2020 the original author or authors.
              *
              * Licensed under the Apache License, Version 2.0 (the "License");
              * you may not use this file except in compliance with the License.
@@ -67,13 +67,13 @@
              * limitations under the License.
              */
 
-       2. **Package Statement**
+       * **Package Statement**
 
-       3. **Import Statements**: 
+       * **Import Statements**: 
           * All static imports
           * All non-static imports
 
-       4. **Java Source File Organization**:
+       * **Java Source File Organization**:
            * static fields
            * normal fields
            * constructors
