@@ -155,7 +155,7 @@ Test Driven Development
 * Also, we only add code if the new or any of the old tests fail. Which means that it leads to reusability as well.
 
 ## SOLID Principles
-**Martin**: design principles encourage us to create more maintainable, understandable, and flexible software.
+**Martin Fowler**: design principles encourage us to create more maintainable, understandable, and flexible software.
 
 ### 1. Single Responsibility
 (interface, class, or method) should have only one responsibility, and one reason to change.
