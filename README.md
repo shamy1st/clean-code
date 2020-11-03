@@ -16,7 +16,6 @@
 ### In Java
 
 1. **Project Structure**:
- 
  * [Maven Standard Directory Layout](https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html)
 
    Dir | Description    
@@ -36,7 +35,7 @@
    README.txt | Project's readme
 
 2. **Naming Convetion**:
-
+ * [Oracle Naming Convention](https://www.oracle.com/java/technologies/javase/codeconventions-namingconventions.html)
    Identifier | Description | Example
    ---------- | ----------- | -------
    Package | lowercase, separated by dots | com.sun.project
@@ -45,20 +44,53 @@
    Method | verbs, first letter lowercase, first letter of each internal word capitalized | runInBackground()
    Variable | first letter lowercase, first letter of each internal word capitalized | int streamReader;
    Constant | all uppercase, words separated by underscores ("_") | static final int MIN_WIDTH = 5;
- 
- * https://www.oracle.com/java/technologies/javase/codeconventions-namingconventions.html
 
 3. **Source File Structure**:
+ * [Spring Source File Structure](https://github.com/spring-projects/spring-framework/wiki/Code-Style#source-file-structure)
  
-  * Package statement
-  * Import statements
-      * All static imports
-      * All non-static imports
-  * Exactly one top-level class
-      * Class variables
-      * Instance variables
-      * Constructors
-      * Methods
+ 1. **License**: each source file must specify the following license at the very top of the file
+ 
+        /*
+        * Copyright 2002-2019 the original author or authors.
+        *
+        * Licensed under the Apache License, Version 2.0 (the "License");
+        * you may not use this file except in compliance with the License.
+        * You may obtain a copy of the License at
+        *
+        *      https://www.apache.org/licenses/LICENSE-2.0
+        *
+        * Unless required by applicable law or agreed to in writing, software
+        * distributed under the License is distributed on an "AS IS" BASIS,
+        * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+        * See the License for the specific language governing permissions and
+        * limitations under the License.
+        */
+ 
+  2. **Package Statement**:
+ 
+  3. **Import Statements**: 
+  
+    import java.*
+    //blank line
+    import javax.*
+    //blank line
+    import all other imports
+    //blank line
+    import org.springframework.*
+    //blank line
+    import static all other imports
+  
+  4. **Java Source File Organization**:
+   1. static fields
+   2. normal fields
+   3. constructors
+   4. (private) methods called from constructors
+   5. static factory methods
+   6. JavaBean properties (i.e., getters and setters)
+   7. method implementations coming from interfaces
+   8. private or protected templates that get called from method implementations coming from interfaces
+   9. other methods
+   10. equals, hashCode, and toString
      
 4. **Whitespaces**:
 
