@@ -44,7 +44,7 @@
    Interface | like class names | Runnable, Iterable
    Method | verbs, first letter lowercase, first letter of each internal word capitalized | runInBackground()
    Variable | first letter lowercase, first letter of each internal word capitalized | int streamReader
-   Constant | all uppercase with words separated by underscores ("_") | final int MIN_WIDTH
+   Constant | all uppercase, words separated by underscores ("_") | final int MIN_WIDTH
  
  * https://www.oracle.com/java/technologies/javase/codeconventions-namingconventions.html
 
