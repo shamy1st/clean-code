@@ -9,8 +9,8 @@
 * **Faster Onboarding**: a quicker onboarding for newcomers to keep productivity high.
 
 ### Characteristics
-* **Focused**: code should be written to solve a specific problem.
 * **Simple**: design and implementation must be as simple as possible.
+* **Focused**: code should be written to solve a specific problem.
 * **Testable**: easy to test the codebase, preferably in an automated manner.
 
 ### In Java
