@@ -181,7 +181,7 @@ Define smaller, more focussed interfaces.
 
 ### 5. Dependency Inversion
 Classes should only depend on abstractions and not on their concrete implementations. (the decoupling of software modules)
-* ElectricPowerSwitch, LightBulb -> Switch, Switchable [example](https://springframework.guru/principles-of-object-oriented-design/dependency-inversion-principle/)
+* ElectricPowerSwitch, LightBulb -> ElectricPowerSwitch implements Switch, LightBulb implements Switchable [example](https://springframework.guru/principles-of-object-oriented-design/dependency-inversion-principle/)
 ![](https://github.com/shamy1st/clean-code/blob/main/dependency-inversion.png)
 
 ## Ref
