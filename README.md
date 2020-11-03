@@ -137,6 +137,13 @@
     * Use external tools for tracing, aggregation, filtering of log messages for faster analytic.
     * Frameworks in Java for logging, including **SLF4J**, **Logback**.
 
+10. **Tools**:
+    * **Code Reviews** have always been a great tool to maintain consistency and help the developers grow through constructive feedback.
+    * However, we do not necessarily have to validate all these principles and best practices manually during code reviews.
+    * **Code Formatters**: Eclipse and IntelliJ.
+    * **Static Analysis Tools**: SonarQube, Checkstyle, PMD and SpotBugs.
+      * detecting a lot of code smells like violations of naming conventions and resource leakage.
+
 ### SOLID Principles
 
 ### DRY & KISS
