@@ -38,6 +38,7 @@
 2. **Naming Convetion**:
 
    Identifier | Description | Example
+   ---------- | ----------- | -------
    Package | lowercase, separated by dots | com.sun.project
    Class | nouns, first letter of each word capitalized, avoid abbreviations | InputStreamReader
    Interface | like class names | Runnable, Iterable
