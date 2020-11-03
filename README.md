@@ -164,3 +164,5 @@ Test Driven Development
 
 ## Ref
 * https://www.baeldung.com/java-clean-code
+* https://www.baeldung.com/solid-principles
+
