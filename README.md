@@ -155,11 +155,18 @@ Test Driven Development
 * Also, we only add code if the new or any of the old tests fail. Which means that it leads to reusability as well.
 
 ## SOLID Principles
+**Martin**: design principles encourage us to create more maintainable, understandable, and flexible software.
 
 ### 1. Single Responsibility
+a class should have only one responsibility, and one reason to change.
+* Book, BookPrinter example: https://www.baeldung.com/solid-principles#s
+
 ### 2. Open/Closed
+
 ### 3. Liskov Substitution
+
 ### 4. Interface Segregation
+
 ### 5. Dependency Inversion
 
 ## Ref
