@@ -100,8 +100,18 @@
        * Two spaces for next lines.
 
 6. **Method Parameters**:
+    * Max. 3 parameters.
+    * Refactor methods having more than recommended parameters.
+    * Don't put unrelated parameters together to decrease number of parameters.
+    * You mustn't be pedantic about this.
 
 7. **Hardcoding**:
+    * It can lead to duplication, which makes change more difficult.
+    * If possible, replace with values which can be picked from configuration or environment
+    
+          private int storeClosureDay = 7;
+          // This can be refactored to use a constant from Java
+          private int storeClosureDay = DayOfWeek.SUNDAY.getValue()
 
 8. **Code Comments**:
 
