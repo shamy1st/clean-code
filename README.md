@@ -168,17 +168,23 @@ classes should be open for extension, but closed for modification.
 
 ### 3. Liskov Substitution
 **Robert Martin**: Subtypes must be substitutable for their base types.
+
 Should be able to replace Parent class with Child class without disrupting the behavior of our program.
 * Square can't replace Rectangle (setWidth, setHeight), then to inherit Square from Rectangle is a **bad** design.
 * Same for Oval, Circle.
 
 ### 4. Interface Segregation
+Larger interfaces should be split into smaller ones.
+* ISmartDevice[print(), fax(), scan()] -> Printable, Faxable, Scannable [example](https://dzone.com/articles/solid-principles-by-example-interface-segregation)
 
 ### 5. Dependency Inversion
+
 
 ## Ref
 * https://www.baeldung.com/java-clean-code
 * https://www.baeldung.com/solid-principles
 * https://www.baeldung.com/java-open-closed-principle
 * https://www.baeldung.com/java-liskov-substitution-principle
+* https://dzone.com/articles/solid-principles-by-example-interface-segregation
+
 
